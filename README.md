@@ -1,6 +1,3 @@
-[![Donate](http://www.opensourcecitizen.org/badge)](http://www.opensourcecitizen.org/project?url=github.com/motdotla/ansible-pi)
-
-If you found this library useful, donate some CPU cycles to this project by clicking above. Thank you! 😇
 
 # ansible-pi
 
@@ -12,7 +9,7 @@ There is a [complete guide to setting up your raspberry pi without a keyboard an
 
 ## Installation
 
-Clone and setup the ansible script. 
+Clone and setup the ansible script.
 
 ```
 git clone https://github.com/motdotla/ansible-pi.git
@@ -31,7 +28,7 @@ ansible-playbook playbook.yml -i hosts --ask-pass --become -c paramiko
 
 ## Requirements
 
-[Ansible](http://www.ansible.com/) is required. 
+[Ansible](http://www.ansible.com/) is required.
 
 ### Installing Ansible on Mac
 
@@ -41,11 +38,7 @@ git clone git://github.com/ansible/ansible.git
 cd ./ansible
 git checkout v1.4.3
 sudo make install
-sudo easy_install jinja2 
+sudo easy_install jinja2
 sudo easy_install pyyaml
 sudo easy_install paramiko
 ```
-
-## History
-
-This project was originally built when trying out my first Raspberry Pi. The setup process was not as easy as I wanted.
